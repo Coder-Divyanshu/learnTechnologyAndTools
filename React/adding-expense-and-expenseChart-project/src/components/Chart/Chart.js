@@ -2,8 +2,8 @@ import "./Chart.css";
 import ChartBar from "./ChartBar";
 
 const Chart = (props) => {
-    const dataPOintsValue = props.dataPoints.map(dataPoint => dataPoint.value);
-    const maximumValue = Math.max(...dataPOintsValue);
+  const dataPOintsValue = props.dataPoints.map((dataPoint) => dataPoint.value);
+  const maximumValue = Math.max(...dataPOintsValue);
 
   return (
     <div className="chart">
@@ -19,4 +19,4 @@ const Chart = (props) => {
   );
 };
 
-export default Chart; 
+export default Chart;
